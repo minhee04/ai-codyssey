@@ -1,0 +1,29 @@
+===== DEVELOPMENT ENVIRONMENT =====
+Sun Nov  1 13:53:54 KST 2026
+/Users/minhee/codyssey/practice
+===== OPERATING SYSTEM =====
+ProductName:		macOS
+ProductVersion:		27.2
+BuildVersion:		26B123
+===== ARCHITECTURE =====
+arm64
+===== SHELL =====
+/bin/zsh
+===== GIT VERSION =====
+git version 2.50.0
+===== DOCKER CLI VERSION =====
+Docker version 29.9.2, build a82e528
+===== GIT STATUS =====
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	logs/
+
+no changes added to commit (use "git add" and/or "git commit -a")
