@@ -1,0 +1,191 @@
+===== FILE CREATE / MOVE / DELETE =====
+1. 파일 생성
+total 8
+-rw-r--r--  1 minhee  staff  29 11월  6 00:14 original.txt
+2. 파일 이동
+total 8
+-rw-r--r--  1 minhee  staff  29 11월  6 00:14 moved.txt
+3. 파일 삭제
+total 0
+drwxr-xr-x  2 minhee  staff   64 11월  6 00:14 .
+drwxr-xr-x  5 minhee  staff  160 10월 30 15:01 ..
+===== CHMOD AND FILE PERMISSIONS =====
+1. 변경 전 권한
+-rw-r--r--  1 minhee  staff  44 11월  6 00:14 terminal/files/permission-test.sh
+2. chmod 755 적용
+3. 변경 후 권한
+-rwxr-xr-x  1 minhee  staff  44 11월  6 00:14 terminal/files/permission-test.sh
+4. 실행 결과
+Permission test successful
+===== DOCKER VERSION =====
+Docker version 29.9.2, build a82e528
+===== DOCKER DAEMON =====
+Client:
+ Version:    29.9.2
+ Context:    desktop-linux
+ Debug Mode: false
+ Plugins:
+  agent: Docker AI Agent Runner (Docker Inc.)
+    Version:  v1.152.0
+    Path:     /Users/minhee/.docker/cli-plugins/docker-agent
+  ai: Docker AI Agent - Ask Gordon (Docker Inc.)
+    Version:  v1.33.0
+    Path:     /Users/minhee/.docker/cli-plugins/docker-ai
+  buildx: Docker Buildx (Docker Inc.)
+    Version:  v0.38.1
+    Path:     /Users/minhee/.docker/cli-plugins/docker-buildx
+  compose: Docker Compose (Docker Inc.)
+    Version:  v5.6.1
+    Path:     /Users/minhee/.docker/cli-plugins/docker-compose
+  debug: Get a shell into any image or container (Docker Inc.)
+    Version:  0.49.0
+    Path:     /Users/minhee/.docker/cli-plugins/docker-debug
+  desktop: Docker Desktop commands (Docker Inc.)
+    Version:  4.97.0
+    Path:     /Users/minhee/.docker/cli-plugins/docker-desktop
+  dhi: CLI for managing Docker Hardened Images (Docker Inc.)
+    Version:  v0.0.9
+    Path:     /Users/minhee/.docker/cli-plugins/docker-dhi
+  extension: Manages Docker extensions (Docker Inc.)
+    Version:  v0.2.32
+    Path:     /Users/minhee/.docker/cli-plugins/docker-extension
+  init: Creates Docker-related starter files for your project (Docker Inc.)
+    Version:  v1.4.1
+    Path:     /Users/minhee/.docker/cli-plugins/docker-init
+  mcp: Docker MCP Plugin (Docker Inc.)
+    Version:  v0.44.2
+    Path:     /Users/minhee/.docker/cli-plugins/docker-mcp
+  model: Docker Model Runner (Docker Inc.)
+    Version:  v1.2.9
+    Path:     /Users/minhee/.docker/cli-plugins/docker-model
+  offload: Docker Offload (Docker Inc.)
+    Version:  v0.7.21
+    Path:     /Users/minhee/.docker/cli-plugins/docker-offload
+  pass: Docker Pass Secrets Manager Plugin (beta) (Docker Inc.)
+    Version:  v0.3.2
+    Path:     /Users/minhee/.docker/cli-plugins/docker-pass
+  sandbox: "docker sandbox" is deprecated, use Docker Sandboxes instead (Docker Inc.)
+    Version:  v0.13.0
+    Path:     /Users/minhee/.docker/cli-plugins/docker-sandbox
+  scout: Docker Scout (Docker Inc.)
+    Version:  v1.27.0
+    Path:     /Users/minhee/.docker/cli-plugins/docker-scout
+
+Server:
+failed to connect to the docker API at unix:///Users/minhee/.docker/run/docker.sock; check if the path is correct and if the daemon is running: dial unix /Users/minhee/.docker/run/docker.sock: connect: no such file or directory
+===== HELLO WORLD =====
+failed to connect to the docker API at unix:///Users/minhee/.docker/run/docker.sock; check if the path is correct and if the daemon is running: dial unix /Users/minhee/.docker/run/docker.sock: connect: no such file or directory
+===== CONTAINER LIST =====
+failed to connect to the docker API at unix:///Users/minhee/.docker/run/docker.sock; check if the path is correct and if the daemon is running: dial unix /Users/minhee/.docker/run/docker.sock: connect: no such file or directory
+===== IMAGE LIST =====
+failed to connect to the docker API at unix:///Users/minhee/.docker/run/docker.sock; check if the path is correct and if the daemon is running: dial unix /Users/minhee/.docker/run/docker.sock: connect: no such file or directory
+===== DOCKER BUILD =====
+ERROR: failed to connect to the docker API at unix:///Users/minhee/.docker/run/docker.sock; check if the path is correct and if the daemon is running: dial unix /Users/minhee/.docker/run/docker.sock: connect: no such file or directory
+===== PORT 8080 =====
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+curl: (7) Failed to connect to localhost port 8080 after 0 ms: Could not connect to server
+===== PORT 8081 =====
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+curl: (7) Failed to connect to localhost port 8081 after 0 ms: Could not connect to server
+===== PORT 8082 =====
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+curl: (7) Failed to connect to localhost port 8082 after 0 ms: Could not connect to server
+===== PORT 8080 =====
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0   347    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+HTTP/1.1 200 OK
+Server: nginx/1.31.8
+Date: Thu, 05 Nov 2026 15:23:48 GMT
+Content-Type: text/html
+Content-Length: 347
+Last-Modified: Fri, 30 Oct 2026 07:51:34 GMT
+Connection: keep-alive
+ETag: "6ae44c86-15b"
+Accept-Ranges: bytes
+
+===== PORT 8081 =====
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0   347    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+HTTP/1.1 200 OK
+Server: nginx/1.31.8
+Date: Thu, 05 Nov 2026 15:23:48 GMT
+Content-Type: text/html
+Content-Length: 347
+Last-Modified: Fri, 30 Oct 2026 07:51:34 GMT
+Connection: keep-alive
+ETag: "6ae44c86-15b"
+Accept-Ranges: bytes
+
+===== PORT 8082 =====
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0   274    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+HTTP/1.1 200 OK
+Server: nginx/1.31.8
+Date: Thu, 05 Nov 2026 15:23:48 GMT
+Content-Type: text/html
+Content-Length: 274
+Last-Modified: Fri, 30 Oct 2026 08:08:53 GMT
+Connection: keep-alive
+ETag: "6ae45095-112"
+Accept-Ranges: bytes
+
+===== PORT CHECK =====
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0   347    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+HTTP/1.1 200 OK
+Server: nginx/1.31.8
+Date: Thu, 05 Nov 2026 15:27:04 GMT
+Content-Type: text/html
+Content-Length: 347
+Last-Modified: Fri, 30 Oct 2026 07:51:34 GMT
+Connection: keep-alive
+ETag: "6ae44c86-15b"
+Accept-Ranges: bytes
+
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0   347    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+HTTP/1.1 200 OK
+Server: nginx/1.31.8
+Date: Thu, 05 Nov 2026 15:27:04 GMT
+Content-Type: text/html
+Content-Length: 347
+Last-Modified: Fri, 30 Oct 2026 07:51:34 GMT
+Connection: keep-alive
+ETag: "6ae44c86-15b"
+Accept-Ranges: bytes
+
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0   274    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+HTTP/1.1 200 OK
+Server: nginx/1.31.8
+Date: Thu, 05 Nov 2026 15:27:04 GMT
+Content-Type: text/html
+Content-Length: 274
+Last-Modified: Fri, 30 Oct 2026 08:08:53 GMT
+Connection: keep-alive
+ETag: "6ae45095-112"
+Accept-Ranges: bytes
+
+===== GIT REMOTE =====
+origin	https://github.com/minhee04/ai-codyssey.git (fetch)
+origin	https://github.com/minhee04/ai-codyssey.git (push)
+===== GIT COMMIT HISTORY =====
+3cd9629 Add Docker and terminal evidence screenshots
+410fca7 Complete Codyssey environment and Docker practice
+e67b212 Merge branch 'main' of https://github.com/minhee04/ai-codyssey
+3cbbf01 Initial commit: Codyssey development environment
+d59b14c Initial commit
+===== GIT BRANCH =====
+* main
