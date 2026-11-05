@@ -452,3 +452,9 @@ origin	https://github.com/minhee04/ai-codyssey.git (push)
 410fca7 Complete Codyssey environment and Docker practice
 e67b212 Merge branch 'main' of https://github.com/minhee04/ai-codyssey
 3cbbf01 Initial commit: Codyssey development environment
+===== PORT 8080 PROCESS =====
+COMMAND     PID   USER   FD   TYPE             DEVICE SIZE/OFF NODE NAME
+com.docke 48804 minhee   86u  IPv6 0x8ab3c324d9821b71      0t0  TCP *:8080 (LISTEN)
+===== PORT 8081 PROCESS =====
+COMMAND     PID   USER   FD   TYPE             DEVICE SIZE/OFF NODE NAME
+com.docke 48804 minhee   88u  IPv6 0x62103bb4164d3eda      0t0  TCP *:8081 (LISTEN)
