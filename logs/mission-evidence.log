@@ -189,3 +189,266 @@ e67b212 Merge branch 'main' of https://github.com/minhee04/ai-codyssey
 d59b14c Initial commit
 ===== GIT BRANCH =====
 * main
+===== DOCKER VERSION =====
+Docker version 29.9.2, build a82e528
+===== DOCKER INFO =====
+Client:
+ Version:    29.9.2
+ Context:    desktop-linux
+ Debug Mode: false
+ Plugins:
+  agent: Docker AI Agent Runner (Docker Inc.)
+    Version:  v1.152.0
+    Path:     /Users/minhee/.docker/cli-plugins/docker-agent
+  ai: Docker AI Agent - Ask Gordon (Docker Inc.)
+    Version:  v1.33.0
+    Path:     /Users/minhee/.docker/cli-plugins/docker-ai
+  buildx: Docker Buildx (Docker Inc.)
+    Version:  v0.38.1
+    Path:     /Users/minhee/.docker/cli-plugins/docker-buildx
+  compose: Docker Compose (Docker Inc.)
+    Version:  v5.6.1
+    Path:     /Users/minhee/.docker/cli-plugins/docker-compose
+  debug: Get a shell into any image or container (Docker Inc.)
+    Version:  0.49.0
+    Path:     /Users/minhee/.docker/cli-plugins/docker-debug
+  desktop: Docker Desktop commands (Docker Inc.)
+    Version:  4.97.0
+    Path:     /Users/minhee/.docker/cli-plugins/docker-desktop
+  dhi: CLI for managing Docker Hardened Images (Docker Inc.)
+    Version:  v0.0.9
+    Path:     /Users/minhee/.docker/cli-plugins/docker-dhi
+  extension: Manages Docker extensions (Docker Inc.)
+    Version:  v0.2.32
+    Path:     /Users/minhee/.docker/cli-plugins/docker-extension
+  init: Creates Docker-related starter files for your project (Docker Inc.)
+    Version:  v1.4.1
+    Path:     /Users/minhee/.docker/cli-plugins/docker-init
+  mcp: Docker MCP Plugin (Docker Inc.)
+    Version:  v0.44.2
+    Path:     /Users/minhee/.docker/cli-plugins/docker-mcp
+  model: Docker Model Runner (Docker Inc.)
+    Version:  v1.2.9
+    Path:     /Users/minhee/.docker/cli-plugins/docker-model
+  offload: Docker Offload (Docker Inc.)
+    Version:  v0.7.21
+    Path:     /Users/minhee/.docker/cli-plugins/docker-offload
+  pass: Docker Pass Secrets Manager Plugin (beta) (Docker Inc.)
+    Version:  v0.3.2
+    Path:     /Users/minhee/.docker/cli-plugins/docker-pass
+  sandbox: "docker sandbox" is deprecated, use Docker Sandboxes instead (Docker Inc.)
+    Version:  v0.13.0
+    Path:     /Users/minhee/.docker/cli-plugins/docker-sandbox
+  scout: Docker Scout (Docker Inc.)
+    Version:  v1.27.0
+    Path:     /Users/minhee/.docker/cli-plugins/docker-scout
+
+Server:
+ Containers: 5
+  Running: 3
+  Paused: 0
+  Stopped: 2
+ Images: 4
+ Server Version: 29.9.2
+ Storage Driver: overlayfs
+  driver-type: io.containerd.snapshotter.v1
+ Logging Driver: local
+ Cgroup Driver: cgroupfs
+ Cgroup Version: 2
+ Plugins:
+  Volume: local
+  Network: bridge host ipvlan macvlan null overlay
+  Log: awslogs fluentd gcplogs gelf journald json-file local splunk syslog
+ CDI spec directories:
+  /etc/cdi
+  /var/run/cdi
+ Discovered Devices:
+  cdi: docker.com/gpu=webgpu
+ Swarm: inactive
+ Runtimes: io.containerd.runc.v2 runc
+ Default Runtime: runc
+ Init Binary: docker-init
+ containerd version: b7a25261e029d68978bbf290df0a62fc819b3c51
+ runc version: v1.5.2-0-g29dd3dc2
+ init version: de40ad0
+ Security Options:
+  seccomp
+   Profile: builtin
+  cgroupns
+ Kernel Version: 7.0.14-linuxkit
+ Operating System: Docker Desktop
+ OSType: linux
+ Architecture: aarch64
+ CPUs: 10
+ Total Memory: 7.748GiB
+ Name: docker-desktop
+ ID: cb4eb8fe-e85e-4590-9995-9201b87a2a0d
+ Docker Root Dir: /var/lib/docker
+ Debug Mode: false
+ HTTP Proxy: http.docker.internal:3128
+ HTTPS Proxy: http.docker.internal:3128
+ No Proxy: hubproxy.docker.internal
+ Labels:
+  com.docker.desktop.address=unix:///Users/minhee/Library/Containers/com.docker.docker/Data/docker-cli.sock
+ Experimental: false
+ Insecure Registries:
+  hubproxy.docker.internal:5555
+  127.0.0.0/8
+  ::1/128
+ Live Restore Enabled: false
+ Firewall Backend: iptables
+
+===== HELLO WORLD SUCCESS =====
+
+Hello from Docker!
+This message shows that your installation appears to be working correctly.
+
+To generate this message, Docker took the following steps:
+ 1. The Docker client contacted the Docker daemon.
+ 2. The Docker daemon pulled the "hello-world" image from the Docker Hub.
+    (arm64v8)
+ 3. The Docker daemon created a new container from that image which runs the
+    executable that produces the output you are currently reading.
+ 4. The Docker daemon streamed that output to the Docker client, which sent it
+    to your terminal.
+
+To try something more ambitious, you can run an Ubuntu container with:
+ $ docker run -it ubuntu bash
+
+Share images, automate workflows, and more with a free Docker ID:
+ https://hub.docker.com/
+
+For more examples and ideas, visit:
+ https://docs.docker.com/get-started/
+
+===== CONTAINER LIST =====
+CONTAINER ID   IMAGE              COMMAND                   CREATED        STATUS                              PORTS                                     NAMES
+5e3cdff1ed6f   hello-world        "/hello"                  1 second ago   Exited (0) Less than a second ago                                             crazy_wiles
+02cce082b362   nginx:alpine       "/docker-entrypoint.…"   6 days ago     Up 21 minutes                       0.0.0.0:8082->80/tcp, [::]:8082->80/tcp   web-bind
+070109d8f5ca   codyssey-web:1.0   "/docker-entrypoint.…"   6 days ago     Up 21 minutes                       0.0.0.0:8081->80/tcp, [::]:8081->80/tcp   codyssey-web-2
+f1a1bf124561   codyssey-web:1.0   "/docker-entrypoint.…"   6 days ago     Up 21 minutes                       0.0.0.0:8080->80/tcp, [::]:8080->80/tcp   codyssey-web
+cada886bfb39   ubuntu             "bash"                    6 days ago     Exited (0) 6 days ago                                                         ubuntu-practice
+3e7b7db5d1cd   hello-world        "/hello"                  6 days ago     Exited (0) 6 days ago                                                         condescending_feistel
+===== IMAGE LIST =====
+IMAGE                ID             DISK USAGE   CONTENT SIZE   EXTRA
+codyssey-web:1.0     96a4ce6b89d5       93.2MB         26.3MB   U    
+hello-world:latest   c567b231f656       22.6kB         10.3kB   U    
+nginx:alpine         785835ea65db       94.1MB         27.2MB   U    
+ubuntu:latest        6a06111c3b0a        181MB         44.9MB   U    
+===== DOCKER BUILD SUCCESS =====
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 138B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/nginx:alpine
+#2 DONE 0.0s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [internal] load build context
+#4 transferring context: 344B done
+#4 DONE 0.0s
+
+#5 [1/2] FROM docker.io/library/nginx:alpine@sha256:785835ea65db4bba6f021acc0f3be91b0fef76a53fe41f8588c6698d2aed0606
+#5 resolve docker.io/library/nginx:alpine@sha256:785835ea65db4bba6f021acc0f3be91b0fef76a53fe41f8588c6698d2aed0606 done
+#5 CACHED
+
+#6 [2/2] COPY web/ /usr/share/nginx/html/
+#6 DONE 0.0s
+
+#7 exporting to image
+#7 exporting layers 0.0s done
+#7 exporting manifest sha256:8abb5b9952cdbd5061dad6e48099499d6a4df7ff4b74da450988e486fb5fd985 done
+#7 exporting config sha256:c20171290a971e07ae1955387d2cf6f94d16d79ccf513ffede4af0575ce39602 done
+#7 exporting attestation manifest sha256:5e902ffb9b2c9b27b780ea3edd439ad0bec08d65d62101a4250c40455d78ef75 done
+#7 exporting manifest list sha256:db01aa9eb9861d1dac2184d0768619f578c025653afd7b438f45c12fd4d83613 done
+#7 naming to docker.io/library/codyssey-web:1.0 done
+#7 unpacking to docker.io/library/codyssey-web:1.0 done
+#7 DONE 0.0s
+===== IMAGE INSPECT =====
+[
+    {
+        "Id": "sha256:db01aa9eb9861d1dac2184d0768619f578c025653afd7b438f45c12fd4d83613",
+        "RepoTags": [
+            "codyssey-web:1.0"
+        ],
+        "RepoDigests": [
+            "codyssey-web@sha256:db01aa9eb9861d1dac2184d0768619f578c025653afd7b438f45c12fd4d83613"
+        ],
+        "Comment": "buildkit.dockerfile.v0",
+        "Created": "2026-11-05T15:44:16.283062467Z",
+        "Config": {
+            "ExposedPorts": {
+                "80/tcp": {}
+            },
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "NGINX_VERSION=1.31.8",
+                "PKG_RELEASE=1",
+                "DYNPKG_RELEASE=1",
+                "NJS_VERSION=1.0.2",
+                "NJS_RELEASE=1",
+                "ACME_VERSION=0.4.1"
+            ],
+            "Entrypoint": [
+                "/docker-entrypoint.sh"
+            ],
+            "Cmd": [
+                "nginx",
+                "-g",
+                "daemon off;"
+            ],
+            "WorkingDir": "/",
+            "Labels": {
+                "maintainer": "Codyssey Practice"
+            },
+            "StopSignal": "SIGQUIT"
+        },
+        "Architecture": "arm64",
+        "Os": "linux",
+        "Size": 93212243,
+        "RootFS": {
+            "Type": "layers",
+            "Layers": [
+                "sha256:a278e6f39431cd0ed74238a3d377893ad0d905d68b676bf9a65529080669756b",
+                "sha256:c55ed3947c0dd17f391ea0475474a9d785467ce92a8a76b99fd2951c86c05797",
+                "sha256:d1a7fc8a77f4d076878aa9fe69cae639603f8ac77652711833f9aeab7ef526a3",
+                "sha256:765a126e5d7d2159ae7e635b14ab2d044d76b0fa903fcb906919449145a47c13",
+                "sha256:24a67d2827ff65cad24b42aaf924713e13dc8a922cf46f0931196a77fdaad460",
+                "sha256:6bcd7020333643273c4cbb7a6d6ddc1e565dd5df26b38a694a563846161e35f1",
+                "sha256:1bb97dd90c8ab18238a91a5010009a930b43457a04702134815ce3c3700797f3",
+                "sha256:499ae474bbbc156a632ba4d1b3ce64f100b598b63e908f4eda1f7b818b149158",
+                "sha256:2941e99b184038158e780a6e2c362901b76a6297019057ef0da8bf6d07e25637"
+            ]
+        },
+        "Metadata": {
+            "LastTagTime": "2026-11-05T15:44:16.312329342Z"
+        },
+        "Descriptor": {
+            "mediaType": "application/vnd.oci.image.index.v1+json",
+            "digest": "sha256:db01aa9eb9861d1dac2184d0768619f578c025653afd7b438f45c12fd4d83613",
+            "size": 856
+        },
+        "Identity": {
+            "Build": [
+                {
+                    "Ref": "hwj27t6630z0pb9nu2szobimh",
+                    "CreatedAt": "2026-11-05T15:44:16.320692925Z"
+                }
+            ]
+        }
+    }
+]
+===== GIT REMOTE =====
+origin	https://github.com/minhee04/ai-codyssey.git (fetch)
+origin	https://github.com/minhee04/ai-codyssey.git (push)
+===== GIT PUSH COMMIT HISTORY =====
+9532660 Improve documentation and add practice evidence
+3cd9629 Add Docker and terminal evidence screenshots
+410fca7 Complete Codyssey environment and Docker practice
+e67b212 Merge branch 'main' of https://github.com/minhee04/ai-codyssey
+3cbbf01 Initial commit: Codyssey development environment
